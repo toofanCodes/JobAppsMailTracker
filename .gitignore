@@ -1,1 +1,28 @@
+# Credentials and Tokens (Sensitive - DO NOT COMMIT)
 credentials.json
+token.json
+
+# Runtime State and Logs
+auth_state.json
+auth_log.json
+auth_log.jsonl
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Virtual environment folders (Common names)
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE specific folders (Examples)
+.vscode/
+.idea/
+
+# OS specific files (Examples)
+.DS_Store
+Thumbs.db
