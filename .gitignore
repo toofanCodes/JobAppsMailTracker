@@ -26,3 +26,6 @@ venv.bak/
 # OS specific files (Examples)
 .DS_Store
 Thumbs.db
+
+# Old code files
+oldFiles
