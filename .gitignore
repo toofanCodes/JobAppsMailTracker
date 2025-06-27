@@ -1,31 +1,166 @@
-# Credentials and Tokens (Sensitive - DO NOT COMMIT)
+# =============================================================================
+# CREDENTIALS & API KEYS (CRITICAL - NEVER COMMIT)
+# =============================================================================
 credentials.json
 token.json
+*.key
+*.pem
+*.p12
+*.pfx
+.env
+.env.local
+.env.production
+.env.staging
 
-# Runtime State and Logs
+# Shell configuration files (may contain API keys)
+.zshrc
+.bashrc
+.bash_profile
+.profile
+.bash_history
+.zsh_history
+
+# Google API credentials
+client_secret*.json
+service_account*.json
+google_credentials.json
+
+# =============================================================================
+# PERSONAL JOB DATA (SENSITIVE - NEVER COMMIT)
+# =============================================================================
+# Job application files
+Job Tracker.xlsx
+job_applications*.csv
+job_applications*.xlsx
+jobs*.csv
+jobs*.xlsx
+applications*.csv
+applications*.xlsx
+sample_jobs*.csv
+sample_jobs*.xlsx
+
+# Personal job data exports
+my_jobs*.csv
+my_jobs*.xlsx
+personal_jobs*.csv
+personal_jobs*.xlsx
+
+# =============================================================================
+# CONFIGURATION & STATE (MAY CONTAIN SENSITIVE DATA)
+# =============================================================================
+config.json
 auth_state.json
-auth_log.json
-auth_log.jsonl
+auth_log*.json
+auth_log*.jsonl
+*.log
 
-# Python cache files
-__pycache__/
-*.py[cod]
-
-# Virtual environment folders (Common names)
+# =============================================================================
+# PYTHON ENVIRONMENT
+# =============================================================================
+# Virtual environments
 venv/
 .venv/
 env/
 ENV/
 env.bak/
 venv.bak/
+.conda/
 
-# IDE specific folders (Examples)
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# =============================================================================
+# IDE & EDITOR FILES
+# =============================================================================
 .vscode/
 .idea/
-
-# OS specific files (Examples)
+*.swp
+*.swo
+*~
 .DS_Store
 Thumbs.db
+desktop.ini
 
-# Old code files
-oldFiles
+# =============================================================================
+# TEMPORARY & BACKUP FILES
+# =============================================================================
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+oldFiles/
+backup/
+temp/
+
+# =============================================================================
+# TEST & DEBUG FILES
+# =============================================================================
+test_*.py
+debug_*.py
+*.test
+coverage.xml
+.coverage
+.pytest_cache/
+.tox/
+
+# =============================================================================
+# OS & SYSTEM FILES
+# =============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# =============================================================================
+# SECURITY & PRIVACY
+# =============================================================================
+# Any file that might contain personal info
+*personal*
+*private*
+*secret*
+*password*
+*api_key*
+*access_token*
+*refresh_token*
+
+# =============================================================================
+# PROJECT SPECIFIC
+# =============================================================================
+# Sample files (remove if you want to keep them)
+sample_*.xlsx
+sample_*.csv
+example_*.xlsx
+example_*.csv
+
+# Output files
+output/
+results/
+exports/
